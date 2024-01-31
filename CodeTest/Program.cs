@@ -17,7 +17,6 @@ namespace LongestIncreasingSubsequence
             int[] longestSubsequenceArray = FindLongestIncreasingSubsequence(intArray);
 
             Console.WriteLine("Longest Increasing Subsequence- " + string.Join(", ", longestSubsequenceArray));
-
         }
 
         public static int[] FindLongestIncreasingSubsequence(int[] arr)
@@ -45,6 +44,7 @@ namespace LongestIncreasingSubsequence
 
             return longestIncreasingSubsequence.ToArray();
         }
+
         static bool IsValidArray(string[] inputArray)
         {
             foreach (string element in inputArray)
