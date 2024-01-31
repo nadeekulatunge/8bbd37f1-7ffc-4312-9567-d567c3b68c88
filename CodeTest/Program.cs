@@ -45,6 +45,7 @@ namespace LongestIncreasingSubsequence
 
             return longestIncreasingSubsequence.ToArray();
         }
+
         static bool IsValidArray(string[] inputArray)
         {
             foreach (string element in inputArray)
